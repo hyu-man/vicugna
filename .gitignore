@@ -1,0 +1,23 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+wp-config.php
+**/wp-config.php
+*.pem
+*.key
+
+# Backups and databases
+*.zip
+*.wpress
+*.sql
+*.sql.gz
+backups/
+private/
+
+# Generated files
+node_modules/
+dist/
+__pycache__/
+.DS_Store
+Thumbs.db
