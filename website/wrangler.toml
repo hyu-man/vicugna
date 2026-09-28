@@ -1,0 +1,13 @@
+name = "vicugna"
+compatibility_date = "2026-09-28"
+
+[assets]
+directory = "./public"
+
+[[routes]]
+pattern = "vicugna.tech"
+custom_domain = true
+
+[[routes]]
+pattern = "www.vicugna.tech"
+custom_domain = true

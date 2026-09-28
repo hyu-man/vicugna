@@ -18,3 +18,11 @@
 元ZIPはリポジトリ外に保持。認証情報を含む設定、プラグイン、有料テーマ、未確認の写真素材はこの初期コミットに含めない。
 
 ホームページ再構築は資料として保持し、着手時期・方針は未定。
+
+## website/ — vicugna.tech（2026-09-28 着工）
+
+本人の指定により方針決定：企業サイトではなく、インディーレーベルの棚として再構築（参考: bunkai-kei.com）。
+
+- `website/public/` — 静的サイト本体。リリース8作のジャケットは配信中の現物（Apple Music のアート）と照合済みの採用版。
+- `website/wrangler.toml` — Cloudflare Worker「vicugna」。vicugna.tech / www.vicugna.tech のカスタムドメイン。
+- 旧WordPressの資料（ロゴ・ビクーニャのマーク）はヘッダーとファビコンに採用。
